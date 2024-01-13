@@ -1,0 +1,12 @@
+C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Core\YoutubeApp.Domain\bin\Debug\net8.0\YoutubeApp.Domain.deps.json
+C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Core\YoutubeApp.Domain\bin\Debug\net8.0\YoutubeApp.Domain.dll
+C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Core\YoutubeApp.Domain\bin\Debug\net8.0\YoutubeApp.Domain.pdb
+C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Core\YoutubeApp.Domain\obj\Debug\net8.0\YoutubeApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Core\YoutubeApp.Domain\obj\Debug\net8.0\YoutubeApp.Domain.AssemblyInfoInputs.cache
+C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Core\YoutubeApp.Domain\obj\Debug\net8.0\YoutubeApp.Domain.AssemblyInfo.cs
+C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Core\YoutubeApp.Domain\obj\Debug\net8.0\YoutubeApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Core\YoutubeApp.Domain\obj\Debug\net8.0\YoutubeApp.Domain.sourcelink.json
+C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Core\YoutubeApp.Domain\obj\Debug\net8.0\YoutubeApp.Domain.dll
+C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Core\YoutubeApp.Domain\obj\Debug\net8.0\refint\YoutubeApp.Domain.dll
+C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Core\YoutubeApp.Domain\obj\Debug\net8.0\YoutubeApp.Domain.pdb
+C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Core\YoutubeApp.Domain\obj\Debug\net8.0\ref\YoutubeApp.Domain.dll
