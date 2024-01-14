@@ -29,8 +29,6 @@
         "ASPNETCORE_ENVIRONMENT": "Production"
       }
     },
-
-
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
