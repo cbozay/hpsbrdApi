@@ -40,3 +40,6 @@ C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Presentation\YoutubeApp.Api\ob
 C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Presentation\YoutubeApp.Api\obj\Debug\net8.0\YoutubeApp.Api.genruntimeconfig.cache
 C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Presentation\YoutubeApp.Api\obj\Debug\net8.0\ref\YoutubeApp.Api.dll
 C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Presentation\YoutubeApp.Api\bin\Debug\net8.0\appsettings.Production.json
+C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Presentation\YoutubeApp.Api\bin\Debug\net8.0\Bogus.dll
+C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Presentation\YoutubeApp.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Presentation\YoutubeApp.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll

@@ -16,3 +16,5 @@ C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Infrastructure\YoutubeApp.Pers
 C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Infrastructure\YoutubeApp.Persistence\obj\Debug\net8.0\refint\YoutubeApp.Persistence.dll
 C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Infrastructure\YoutubeApp.Persistence\obj\Debug\net8.0\YoutubeApp.Persistence.pdb
 C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Infrastructure\YoutubeApp.Persistence\obj\Debug\net8.0\ref\YoutubeApp.Persistence.dll
+C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Infrastructure\YoutubeApp.Persistence\bin\Debug\net8.0\YoutubeApp.Persistence.runtimeconfig.json
+C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Infrastructure\YoutubeApp.Persistence\obj\Debug\net8.0\YoutubeApp.Persistence.genruntimeconfig.cache
