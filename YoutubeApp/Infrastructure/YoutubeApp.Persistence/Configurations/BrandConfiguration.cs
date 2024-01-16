@@ -44,7 +44,7 @@ namespace YoutubeApp.Persistence.Configurations
 
             Brand brand4 = new()
             {
-                Id = 1,
+                Id = 4,
                 Name = faker.Commerce.Department(),
                 CreatedTime = DateTime.Now,
                 IsDeleted = false,

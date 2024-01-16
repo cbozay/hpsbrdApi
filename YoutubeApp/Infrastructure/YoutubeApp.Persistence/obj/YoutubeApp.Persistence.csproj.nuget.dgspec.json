@@ -160,9 +160,13 @@
           "dependencies": {
             "Bogus": {
               "target": "Package",
-              "version": "[35.3.2, )"
+              "version": "[35.4.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.1, )"
             },
