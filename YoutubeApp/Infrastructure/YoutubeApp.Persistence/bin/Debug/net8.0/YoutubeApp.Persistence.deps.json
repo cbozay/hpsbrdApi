@@ -924,6 +924,7 @@
       },
       "YoutubeApp.Application/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.1",
           "YoutubeApp.Domain": "1.0.0"
         },
         "runtime": {

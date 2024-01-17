@@ -6,7 +6,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using YoutubeApp.Application.Interfaces.Repositories;
 using YoutubeApp.Persistence.Context;
+using YoutubeApp.Persistence.Repositories;
 
 namespace YoutubeApp.Persistence
 {
@@ -16,6 +18,8 @@ namespace YoutubeApp.Persistence
         {
             services.AddDbContext<AppDbContext>(opt =>
             opt.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddScoped(typeof(IReadRepository<>),typeof(ReadRepository<>));
         }
     }
 }
