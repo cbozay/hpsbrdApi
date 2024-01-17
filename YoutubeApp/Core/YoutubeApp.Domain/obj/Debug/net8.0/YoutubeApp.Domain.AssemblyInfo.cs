@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YoutubeApp.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67e023acbdcbe7839a08237d5035ed16d31cc00e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2138a786a5a7ac345ad08b9f32a1b0fbcf9544a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("YoutubeApp.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YoutubeApp.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
