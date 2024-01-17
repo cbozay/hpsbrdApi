@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "dJP50CrhvEy2l7CGfRXigHR/jGbVJFhz/zkjsOt9OvDnZGiXVVnwBrQ0hWacHmw5jqRWIzN7leavQrdZTMSdbg==",
+  "dgSpecHash": "oMs88Ovz+6ErdLqXBMJ+jP/GfrnIx3s5SOK6nInwD0GkV/scgZvJdf+T+zI3apJNuNWzt/A3p2UsT/6qVdgU0w==",
   "success": true,
   "projectFilePath": "C:\\Users\\cboza\\OneDrive\\Masaüstü\\App\\YoutubeApp\\Infrastructure\\YoutubeApp.Infrastructure\\YoutubeApp.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\cboza\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\cboza\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.1\\microsoft.entityframeworkcore.8.0.1.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.1\\microsoft.entityframeworkcore.abstractions.8.0.1.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.1\\microsoft.entityframeworkcore.analyzers.8.0.1.nupkg.sha512",
