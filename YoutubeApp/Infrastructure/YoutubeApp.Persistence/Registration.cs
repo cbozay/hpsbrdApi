@@ -19,6 +19,8 @@ namespace YoutubeApp.Persistence
             services.AddDbContext<AppDbContext>(opt =>
             opt.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
+            services.AddScoped(typeof(IWriteRepository<>),typeof(WriteRepository<>));
+
             services.AddScoped(typeof(IReadRepository<>),typeof(ReadRepository<>));
         }
     }
