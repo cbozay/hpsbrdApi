@@ -1,4 +1,5 @@
-﻿using YoutubeApp.Domain.Entities;
+﻿using YoutubeApp.Application.DTOs;
+using YoutubeApp.Domain.Entities;
 
 namespace YoutubeApp.Application.Features.Product.Query.GetAllProducts
 {
@@ -8,5 +9,6 @@ namespace YoutubeApp.Application.Features.Product.Query.GetAllProducts
         public string Description { get; set; }
         public decimal Price { get; set; }
         public decimal Discount { get; set; }
+        public BrandDto Brand{ get; set; }
     }
 }

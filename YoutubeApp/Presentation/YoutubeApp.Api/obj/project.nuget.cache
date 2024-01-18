@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "f7diDBbjCHbebsJrFOesjHhTzZGHihkeeKndXpFFa8S7YQLhbhbAF1nvvG7xuM0oZGSYk7c2RVjSjLD4GY1Dyg==",
+  "dgSpecHash": "AaqQit5TQHxvLlS+z0e+byMcCD/SAtfK01jPmOCFfY6EYjFfNxv8Rkoio9cmGj+vjp45GlNHtD5NLkdf8VWAJQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\cboza\\OneDrive\\Masaüstü\\App\\YoutubeApp\\Presentation\\YoutubeApp.Api\\YoutubeApp.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\cboza\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\bogus\\35.4.0\\bogus.35.4.0.nupkg.sha512",
@@ -16,7 +17,7 @@
     "C:\\Users\\cboza\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.5.0\\microsoft.codeanalysis.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\microsoft.codeanalysis.csharp.workspaces\\4.5.0\\microsoft.codeanalysis.csharp.workspaces.4.5.0.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\4.5.0\\microsoft.codeanalysis.workspaces.common.4.5.0.nupkg.sha512",
-    "C:\\Users\\cboza\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\cboza\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.1.0\\microsoft.data.sqlclient.sni.runtime.5.1.0.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.1\\microsoft.entityframeworkcore.8.0.1.nupkg.sha512",
