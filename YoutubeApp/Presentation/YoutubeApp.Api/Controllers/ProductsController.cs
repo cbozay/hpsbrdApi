@@ -1,7 +1,10 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using YoutubeApp.Application.Features.Product.Query.GetAllProducts;
+using YoutubeApp.Application.Features.Products.Command.CreateProduct;
+using YoutubeApp.Application.Features.Products.Command.DeleteProduct;
+using YoutubeApp.Application.Features.Products.Command.UpdateProduct;
+using YoutubeApp.Application.Features.Products.Query.GetAllProducts;
 
 namespace YoutubeApp.Api.Controllers
 {
@@ -21,6 +24,27 @@ namespace YoutubeApp.Api.Controllers
         {
             var response=await mediator.Send(new GetAllProductsQueryRequest());
             return Ok(response);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CreateProduct(CreateProductCommandRequest request)
+        {
+            await mediator.Send(request);
+            return Ok();
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> UpdateProduct(UpdateProductCommandRequest request)
+        {
+            await mediator.Send(request);
+            return Ok();
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> DeleteProduct(DeleteProductCommandRequest request)
+        {
+            await mediator.Send(request);
+            return Ok();
         }
     }
 }

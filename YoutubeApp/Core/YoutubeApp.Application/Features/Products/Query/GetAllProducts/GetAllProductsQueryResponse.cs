@@ -1,7 +1,7 @@
 ﻿using YoutubeApp.Application.DTOs;
 using YoutubeApp.Domain.Entities;
 
-namespace YoutubeApp.Application.Features.Product.Query.GetAllProducts
+namespace YoutubeApp.Application.Features.Products.Query.GetAllProducts
 {
     public class GetAllProductsQueryResponse
     {

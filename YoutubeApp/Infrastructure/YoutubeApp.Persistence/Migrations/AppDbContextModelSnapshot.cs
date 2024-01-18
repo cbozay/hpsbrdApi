@@ -22,21 +22,6 @@ namespace YoutubeApp.Persistence.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("CategoryProduct", b =>
-                {
-                    b.Property<int>("CategoriesId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProductsId")
-                        .HasColumnType("int");
-
-                    b.HasKey("CategoriesId", "ProductsId");
-
-                    b.HasIndex("ProductsId");
-
-                    b.ToTable("CategoryProduct");
-                });
-
             modelBuilder.Entity("YoutubeApp.Domain.Entities.Brand", b =>
                 {
                     b.Property<int>("Id")
@@ -64,30 +49,30 @@ namespace YoutubeApp.Persistence.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedTime = new DateTime(2024, 1, 16, 15, 52, 49, 806, DateTimeKind.Local).AddTicks(2882),
+                            CreatedTime = new DateTime(2024, 1, 18, 13, 8, 54, 651, DateTimeKind.Local).AddTicks(4537),
                             IsDeleted = false,
-                            Name = "Music, Sports & Garden"
+                            Name = "Movies, Industrial & Health"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedTime = new DateTime(2024, 1, 16, 15, 52, 49, 806, DateTimeKind.Local).AddTicks(2893),
+                            CreatedTime = new DateTime(2024, 1, 18, 13, 8, 54, 651, DateTimeKind.Local).AddTicks(4545),
                             IsDeleted = false,
-                            Name = "Clothing & Computers"
+                            Name = "Computers"
                         },
                         new
                         {
                             Id = 3,
-                            CreatedTime = new DateTime(2024, 1, 16, 15, 52, 49, 806, DateTimeKind.Local).AddTicks(2900),
+                            CreatedTime = new DateTime(2024, 1, 18, 13, 8, 54, 651, DateTimeKind.Local).AddTicks(4595),
                             IsDeleted = true,
-                            Name = "Games & Garden"
+                            Name = "Home, Toys & Clothing"
                         },
                         new
                         {
                             Id = 4,
-                            CreatedTime = new DateTime(2024, 1, 16, 15, 52, 49, 806, DateTimeKind.Local).AddTicks(2904),
+                            CreatedTime = new DateTime(2024, 1, 18, 13, 8, 54, 651, DateTimeKind.Local).AddTicks(4602),
                             IsDeleted = false,
-                            Name = "Home"
+                            Name = "Industrial & Movies"
                         });
                 });
 
@@ -123,7 +108,7 @@ namespace YoutubeApp.Persistence.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedTime = new DateTime(2024, 1, 16, 15, 52, 49, 806, DateTimeKind.Local).AddTicks(4219),
+                            CreatedTime = new DateTime(2024, 1, 18, 13, 8, 54, 651, DateTimeKind.Local).AddTicks(5878),
                             IsDeleted = false,
                             Name = "Elektrik",
                             ParentId = 0,
@@ -132,7 +117,7 @@ namespace YoutubeApp.Persistence.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedTime = new DateTime(2024, 1, 16, 15, 52, 49, 806, DateTimeKind.Local).AddTicks(4221),
+                            CreatedTime = new DateTime(2024, 1, 18, 13, 8, 54, 651, DateTimeKind.Local).AddTicks(5880),
                             IsDeleted = false,
                             Name = "Moda",
                             ParentId = 0,
@@ -141,7 +126,7 @@ namespace YoutubeApp.Persistence.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedTime = new DateTime(2024, 1, 16, 15, 52, 49, 806, DateTimeKind.Local).AddTicks(4223),
+                            CreatedTime = new DateTime(2024, 1, 18, 13, 8, 54, 651, DateTimeKind.Local).AddTicks(5881),
                             IsDeleted = true,
                             Name = "Bilgisayar",
                             ParentId = 1,
@@ -150,7 +135,7 @@ namespace YoutubeApp.Persistence.Migrations
                         new
                         {
                             Id = 4,
-                            CreatedTime = new DateTime(2024, 1, 16, 15, 52, 49, 806, DateTimeKind.Local).AddTicks(4224),
+                            CreatedTime = new DateTime(2024, 1, 18, 13, 8, 54, 651, DateTimeKind.Local).AddTicks(5883),
                             IsDeleted = false,
                             Name = "Kadın",
                             ParentId = 2,
@@ -232,39 +217,39 @@ namespace YoutubeApp.Persistence.Migrations
                         {
                             Id = 1,
                             BrandId = 1,
-                            CreatedTime = new DateTime(2024, 1, 16, 15, 52, 49, 808, DateTimeKind.Local).AddTicks(9263),
-                            Description = "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-                            Discount = 1.853581991880670m,
+                            CreatedTime = new DateTime(2024, 1, 18, 13, 8, 54, 654, DateTimeKind.Local).AddTicks(7116),
+                            Description = "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+                            Discount = 4.320748470551170m,
                             IsDeleted = false,
-                            Price = 493.07m,
-                            Title = "Practical Soft Chicken"
+                            Price = 575.07m,
+                            Title = "Handcrafted Wooden Soap"
                         },
                         new
                         {
                             Id = 2,
                             BrandId = 3,
-                            CreatedTime = new DateTime(2024, 1, 16, 15, 52, 49, 808, DateTimeKind.Local).AddTicks(9371),
-                            Description = "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-                            Discount = 1.613420598025440m,
+                            CreatedTime = new DateTime(2024, 1, 18, 13, 8, 54, 654, DateTimeKind.Local).AddTicks(7236),
+                            Description = "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+                            Discount = 0.8274674960704520m,
                             IsDeleted = false,
-                            Price = 901.01m,
-                            Title = "Awesome Plastic Computer"
+                            Price = 257.97m,
+                            Title = "Refined Fresh Cheese"
                         });
                 });
 
-            modelBuilder.Entity("CategoryProduct", b =>
+            modelBuilder.Entity("YoutubeApp.Domain.Entities.ProductCategory", b =>
                 {
-                    b.HasOne("YoutubeApp.Domain.Entities.Category", null)
-                        .WithMany()
-                        .HasForeignKey("CategoriesId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
 
-                    b.HasOne("YoutubeApp.Domain.Entities.Product", null)
-                        .WithMany()
-                        .HasForeignKey("ProductsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ProductId", "CategoryId");
+
+                    b.HasIndex("CategoryId");
+
+                    b.ToTable("ProductCategories");
                 });
 
             modelBuilder.Entity("YoutubeApp.Domain.Entities.Detail", b =>
@@ -289,6 +274,25 @@ namespace YoutubeApp.Persistence.Migrations
                     b.Navigation("Brand");
                 });
 
+            modelBuilder.Entity("YoutubeApp.Domain.Entities.ProductCategory", b =>
+                {
+                    b.HasOne("YoutubeApp.Domain.Entities.Category", "Category")
+                        .WithMany("ProductCategories")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("YoutubeApp.Domain.Entities.Product", "Product")
+                        .WithMany("ProductCategories")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("YoutubeApp.Domain.Entities.Brand", b =>
                 {
                     b.Navigation("Products");
@@ -297,6 +301,13 @@ namespace YoutubeApp.Persistence.Migrations
             modelBuilder.Entity("YoutubeApp.Domain.Entities.Category", b =>
                 {
                     b.Navigation("Details");
+
+                    b.Navigation("ProductCategories");
+                });
+
+            modelBuilder.Entity("YoutubeApp.Domain.Entities.Product", b =>
+                {
+                    b.Navigation("ProductCategories");
                 });
 #pragma warning restore 612, 618
         }

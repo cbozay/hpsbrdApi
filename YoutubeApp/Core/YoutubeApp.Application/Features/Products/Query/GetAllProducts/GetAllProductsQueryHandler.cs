@@ -10,7 +10,7 @@ using YoutubeApp.Application.Interfaces.AutoMapper;
 using YoutubeApp.Application.Interfaces.UnitOfWorks;
 using YoutubeApp.Domain.Entities;
 
-namespace YoutubeApp.Application.Features.Product.Query.GetAllProducts
+namespace YoutubeApp.Application.Features.Products.Query.GetAllProducts
 {
     public class GetAllProductsQueryHandler : IRequestHandler<GetAllProductsQueryRequest, IList<GetAllProductsQueryResponse>>
     {

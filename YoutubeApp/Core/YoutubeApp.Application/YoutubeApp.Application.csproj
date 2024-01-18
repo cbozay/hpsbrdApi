@@ -15,8 +15,4 @@
     <ProjectReference Include="..\YoutubeApp.Domain\YoutubeApp.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Features\Product\Command\" />
-  </ItemGroup>
-
 </Project>
