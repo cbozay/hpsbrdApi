@@ -148,3 +148,6 @@ C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Presentation\YoutubeApp.Api\bi
 C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Presentation\YoutubeApp.Api\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Presentation\YoutubeApp.Api\bin\Debug\net8.0\YoutubeApp.Mapper.dll
 C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Presentation\YoutubeApp.Api\bin\Debug\net8.0\YoutubeApp.Mapper.pdb
+C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Presentation\YoutubeApp.Api\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Presentation\YoutubeApp.Api\bin\Debug\net8.0\SendGrid.dll
+C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Presentation\YoutubeApp.Api\bin\Debug\net8.0\StarkbankEcdsa.dll

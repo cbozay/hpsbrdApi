@@ -5,6 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using YoutubeApp.Application.Exceptions;
 
 namespace YoutubeApp.Application
 {
@@ -13,6 +14,8 @@ namespace YoutubeApp.Application
         public static void AddApplication(this IServiceCollection services) 
         {
             var assebly = Assembly.GetExecutingAssembly();
+
+            services.AddTransient<ExceptionMiddleware>();
 
             services.AddMediatR(cfg => { cfg.RegisterServicesFromAssemblies(assebly); });
         }
