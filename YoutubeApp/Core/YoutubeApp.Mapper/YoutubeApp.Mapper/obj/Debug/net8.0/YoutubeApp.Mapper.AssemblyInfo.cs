@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YoutubeApp.Mapper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5354a8bcbc7872bc53f26817cbd73cf9b4375b08")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5268aef15599e18e3aa61828852df59713eb1e54")]
 [assembly: System.Reflection.AssemblyProductAttribute("YoutubeApp.Mapper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YoutubeApp.Mapper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

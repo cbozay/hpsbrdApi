@@ -24,22 +24,27 @@ namespace YoutubeApp.Application.Features.Products.Command.UpdateProduct
         {
             var product = await unitOfWork.GetReadRepository<Product>().GetAsync(p => p.Id == request.Id && !p.IsDeleted);
 
+            if (product == null) throw new NotImplementedException("Maalesef girilen ürün bulunamadı!");
+
             var map = mapper.Map<Product, UpdateProductCommandRequest>(request);
 
-            var productCategories = await unitOfWork.GetReadRepository<ProductCategory>()
-                .GetAllAsync(x=>x.ProductId==product.Id);
+            await unitOfWork.GetWriteRepository<Product>().UpdateAsync(map);
+
+            var productCategories = await unitOfWork.GetReadRepository<ProductCategory>().GetAllAsync(x => x.ProductId == product.Id);
 
             await unitOfWork.GetWriteRepository<ProductCategory>().HardDeleteRangeAsync(productCategories);
 
             foreach (var categoryId in request.CategoryIds)
             {
-                await unitOfWork.GetWriteRepository<ProductCategory>()
-                    .AddAsync(new() { CategoryId = categoryId, ProductId=product.Id });
-
-                await unitOfWork.GetWriteRepository<Product>().UpdateAsync(map);
+                await unitOfWork.GetWriteRepository<ProductCategory>().AddAsync(new()
+                {
+                    CategoryId = categoryId,
+                    ProductId = product.Id
+                });
 
                 await unitOfWork.SaveAsync();
             }
         }
+
     }
 }

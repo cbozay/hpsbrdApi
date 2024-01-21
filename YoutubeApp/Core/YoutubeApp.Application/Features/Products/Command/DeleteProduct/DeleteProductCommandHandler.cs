@@ -21,6 +21,8 @@ namespace YoutubeApp.Application.Features.Products.Command.DeleteProduct
         {
             var product = await unitOfWork.GetReadRepository<Product>().GetAsync(p => p.Id == request.Id && !p.IsDeleted);
 
+            if (product == null) throw new NotImplementedException("Maalesef girilen ürün bulunamamıştır!");
+
             product.IsDeleted = true;
 
             await unitOfWork.GetWriteRepository<Product>().UpdateAsync(product);
