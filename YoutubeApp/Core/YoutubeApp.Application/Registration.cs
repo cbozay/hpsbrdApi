@@ -7,6 +7,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using YoutubeApp.Application.Bases;
 using YoutubeApp.Application.Behaviors;
 using YoutubeApp.Application.Exceptions;
 using YoutubeApp.Application.Features.Products.Command.CreateProduct;
@@ -27,6 +28,18 @@ namespace YoutubeApp.Application
             ValidatorOptions.Global.LanguageManager.Culture = new System.Globalization.CultureInfo("tr");
 
             services.AddTransient(typeof(IPipelineBehavior<,>),typeof(FluentValidationBehavior<,>));
+
+            services.AddRulesFromAssembyContaining(assebly, typeof(BaseRules));
+        }
+
+        //assembly deki tüm rules class larını bulur ve kaydeder. Üst kısımda da bu custom sınıfın kaydını yaptık.
+        private static IServiceCollection AddRulesFromAssembyContaining(this IServiceCollection services,Assembly assembly,Type type)
+        {
+            var types=assembly.GetTypes().Where(t=>t.IsSubclassOf(type)&&type!=t).ToList();
+            foreach (var item in types)
+                services.AddTransient(item);
+
+            return services;
         }
     }
 }
