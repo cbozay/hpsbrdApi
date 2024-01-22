@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "UBdKPl8W82zhgW8rFR/JLl9keDQI4iRXBX2MjNVtNdYdhdiOX6gmjb6ep1bjXWmvlnzwZevozrHe7I2WndWUOw==",
+  "dgSpecHash": "rgStFPbBtt9UPOFYTJditcm461N9Zsi9pySluEaeVO9J44CbqsHkaTu9yfl6wFgCuPVJfL1boHj0xqK0tTVYyQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\cboza\\OneDrive\\Masaüstü\\App\\YoutubeApp\\Infrastructure\\YoutubeApp.Persistence\\YoutubeApp.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cboza\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\bogus\\35.4.0\\bogus.35.4.0.nupkg.sha512",
+    "C:\\Users\\cboza\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\cboza\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

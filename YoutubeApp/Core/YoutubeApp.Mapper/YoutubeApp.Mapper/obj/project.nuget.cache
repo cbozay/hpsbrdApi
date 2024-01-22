@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "DNLBJUznOlLhf/EzOS+78hGeyPWRxUFj/Zlxrc7yumbbpwY4nbrphiQGd72pwUCfluBuJ+BCHDSarI5QRL3KpQ==",
+  "dgSpecHash": "NJvH7kvlcO10mw6KrKncBHIuhr/q9Oe+lNPg5UPoMY8zIjEemaDxT9IP9Sg8kcbwiqwcwMtDRNa7S2OiMe1vyQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\cboza\\OneDrive\\Masaüstü\\App\\YoutubeApp\\Core\\YoutubeApp.Mapper\\YoutubeApp.Mapper\\YoutubeApp.Mapper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cboza\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\cboza\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\cboza\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.1.1\\microsoft.aspnetcore.http.abstractions.2.1.1.nupkg.sha512",

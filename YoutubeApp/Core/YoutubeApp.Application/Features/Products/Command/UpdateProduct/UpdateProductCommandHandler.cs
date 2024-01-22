@@ -10,7 +10,7 @@ using YoutubeApp.Domain.Entities;
 
 namespace YoutubeApp.Application.Features.Products.Command.UpdateProduct
 {
-    public class UpdateProductCommandHandler : IRequestHandler<UpdateProductCommandRequest>
+    public class UpdateProductCommandHandler : IRequestHandler<UpdateProductCommandRequest, Unit>
     {
         private readonly IUnitOfWork unitOfWork;
         private readonly IMapper mapper;
@@ -20,7 +20,7 @@ namespace YoutubeApp.Application.Features.Products.Command.UpdateProduct
             this.unitOfWork = unitOfWork;
             this.mapper = mapper;
         }
-        public async Task Handle(UpdateProductCommandRequest request, CancellationToken cancellationToken)
+        public async Task<Unit> Handle(UpdateProductCommandRequest request, CancellationToken cancellationToken)
         {
             var product = await unitOfWork.GetReadRepository<Product>().GetAsync(p => p.Id == request.Id && !p.IsDeleted);
 
@@ -44,6 +44,8 @@ namespace YoutubeApp.Application.Features.Products.Command.UpdateProduct
 
                 await unitOfWork.SaveAsync();
             }
+
+            return Unit.Value;
         }
 
     }
