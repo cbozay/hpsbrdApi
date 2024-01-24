@@ -10,3 +10,4 @@ C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Core\YoutubeApp.Domain\obj\Deb
 C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Core\YoutubeApp.Domain\obj\Debug\net8.0\refint\YoutubeApp.Domain.dll
 C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Core\YoutubeApp.Domain\obj\Debug\net8.0\YoutubeApp.Domain.pdb
 C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Core\YoutubeApp.Domain\obj\Debug\net8.0\ref\YoutubeApp.Domain.dll
+C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Core\YoutubeApp.Domain\obj\Debug\net8.0\YoutubeApp.Domain.csproj.AssemblyReference.cache
