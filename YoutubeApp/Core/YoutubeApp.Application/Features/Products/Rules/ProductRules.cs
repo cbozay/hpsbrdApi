@@ -11,9 +11,9 @@ namespace YoutubeApp.Application.Features.Products.Rules
 {
     public class ProductRules : BaseRules
     {
-        public Task ProductTitleMustNotBeSame(IList<Product> products,string requestTitle)
+        public Task ProductTitleMustNotBeSame(IList<Product> products, string requestTitle)
         {
-            if (products.Any(p=>p.Title==requestTitle)) throw new ProductTitleMustNotBeSameException();
+            if (products.Any(p => p.Title == requestTitle)) throw new ProductTitleMustNotBeSameException();
             return Task.CompletedTask;
         }
     }

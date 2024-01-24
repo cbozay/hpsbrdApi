@@ -4,7 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using YoutubeApp.Application.DTOs;
 using YoutubeApp.Application.Features.Products.Rules;
+using YoutubeApp.Application.Interfaces.AutoMapper;
+using YoutubeApp.Application.Interfaces.Services;
 using YoutubeApp.Application.Interfaces.UnitOfWorks;
 using YoutubeApp.Domain.Entities;
 
@@ -12,37 +15,19 @@ namespace YoutubeApp.Application.Features.Products.Command.CreateProduct
 {
     public class CreateProductCommandHandler : IRequestHandler<CreateProductCommandRequest,Unit>
     {
-        private readonly IUnitOfWork unitOfWork;
-        private readonly ProductRules productRules;
+        private readonly IProductService productService;
+        private readonly IMapper mapper;
 
-        public CreateProductCommandHandler(IUnitOfWork unitOfWork,ProductRules productRules)
+        public CreateProductCommandHandler(IProductService productService,IMapper mapper)
         {
-            this.unitOfWork = unitOfWork;
-            this.productRules = productRules;
+            this.productService = productService;
+            this.mapper = mapper;
         }
 
         public async Task<Unit> Handle(CreateProductCommandRequest request, CancellationToken cancellationToken)
         {
-            IList<Product> products = await unitOfWork.GetReadRepository<Product>().GetAllAsync();
-
-            await productRules.ProductTitleMustNotBeSame(products, request.Title);
-
-            Product product = new(request.Title,request.Description,request.BrandId,request.Price,request.Discount) ;
-
-            await unitOfWork.GetWriteRepository<Product>().AddAsync(product);
-            
-            if(await unitOfWork.SaveAsync() > 0)
-            {
-                foreach (var categoryId in request.CategoryIds)
-                {
-                    await unitOfWork.GetWriteRepository<ProductCategory>().AddAsync(new() 
-                    {
-                        ProductId= product.Id,
-                        CategoryId= categoryId 
-                    });
-                    await unitOfWork.SaveAsync();
-                }
-            }
+            var createProductDto=mapper.Map<CreateProductDto, CreateProductCommandRequest>(request);
+            await productService.CreateProductAsync(createProductDto);
 
             return Unit.Value;
         }
