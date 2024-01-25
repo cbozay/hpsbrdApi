@@ -161,3 +161,4 @@ C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Presentation\YoutubeApp.Api\bi
 C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Presentation\YoutubeApp.Api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Presentation\YoutubeApp.Api\bin\Debug\net8.0\YoutubeApp.Infrastructure.dll
 C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Presentation\YoutubeApp.Api\bin\Debug\net8.0\YoutubeApp.Infrastructure.pdb
+C:\Users\cboza\OneDrive\Masaüstü\App\YoutubeApp\Presentation\YoutubeApp.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
