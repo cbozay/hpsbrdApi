@@ -2,6 +2,7 @@ using YoutubeApp.Persistence;
 using YoutubeApp.Application;
 using YoutubeApp.Mapper;
 using YoutubeApp.Application.Exceptions;
+using YoutubeApp.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,6 +23,7 @@ builder.Configuration
 
 builder.Services.AddPersistence(builder.Configuration);
 builder.Services.AddApplication();
+builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddCustomMapper();
 
 var app = builder.Build();

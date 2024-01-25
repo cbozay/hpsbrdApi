@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Core\YoutubeApp.Mapper\YoutubeApp.Mapper\YoutubeApp.Mapper.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\YoutubeApp.Infrastructure\YoutubeApp.Infrastructure.csproj" />
     <ProjectReference Include="..\..\Infrastructure\YoutubeApp.Persistence\YoutubeApp.Persistence.csproj" />
   </ItemGroup>
 
