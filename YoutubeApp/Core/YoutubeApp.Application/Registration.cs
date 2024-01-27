@@ -29,11 +29,12 @@ namespace YoutubeApp.Application
 
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(FluentValidationBehavior<,>));
 
-            services.AddRulesFromAssembyContaining(assembly, typeof(BaseRules));
+            services.AddTypesFromAssembyContaining(assembly, typeof(BaseRules));
+
         }
 
         //assembly deki tüm rules class larını bulur ve kaydeder. Üst kısımda da bu custom sınıfın kaydını yaptık.
-        private static IServiceCollection AddRulesFromAssembyContaining(this IServiceCollection services, Assembly assembly, Type type)
+        private static IServiceCollection AddTypesFromAssembyContaining(this IServiceCollection services, Assembly assembly, Type type)
         {
             var types = assembly.GetTypes().Where(t => t.IsSubclassOf(type) && t != type).ToList();
             foreach (var item in types)

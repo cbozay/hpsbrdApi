@@ -39,8 +39,8 @@ namespace YoutubeApp.Application.Features.Products.Query.GetAllProducts
             //}
             var map = mapper.Map<GetAllProductsQueryResponse,Product>(products);
             foreach (var product in map) product.Price -= (product.Price * product.Discount) / 100;
-            //return map;
-            throw new Exception("hatayı aldık desene");
+            return map;
+            //throw new Exception("hatayı aldık desene");
         }
     }
 }
