@@ -1,8 +1,8 @@
 ﻿using MediatR;
 
-namespace YoutubeApp.Application.Features.Auth.Register.Command
+namespace YoutubeApp.Application.Features.Auth.Command.Register
 {
-    public class RegisterCommandRequest:IRequest<Unit>
+    public class RegisterCommandRequest : IRequest<Unit>
     {
         public string FullName { get; set; }
         public string Email { get; set; }

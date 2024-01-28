@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace YoutubeApp.Application.Features.Auth.Register.Command
+namespace YoutubeApp.Application.Features.Auth.Command.Register
 {
     public class RegisterCommandValidator : AbstractValidator<RegisterCommandRequest>
     {

@@ -1,7 +1,8 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using YoutubeApp.Application.Features.Auth.Register.Command;
+using YoutubeApp.Application.Features.Auth.Command.Login;
+using YoutubeApp.Application.Features.Auth.Command.Register;
 
 namespace YoutubeApp.Api.Controllers
 {
@@ -20,8 +21,14 @@ namespace YoutubeApp.Api.Controllers
         public async Task<IActionResult> Register(RegisterCommandRequest request)
         {
             await mediator.Send(request);
-
             return StatusCode(StatusCodes.Status201Created);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Login(LoginCommandRequest request)
+        {
+            var response=await mediator.Send(request);
+            return StatusCode(StatusCodes.Status200OK,response);
         }
     }
 }

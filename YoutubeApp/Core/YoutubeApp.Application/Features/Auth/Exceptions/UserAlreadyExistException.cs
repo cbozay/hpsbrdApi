@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using YoutubeApp.Application.Bases;
 
-namespace YoutubeApp.Application.Features.Auth.Register.Exceptions
+namespace YoutubeApp.Application.Features.Auth.Exceptions
 {
     public class UserAlreadyExistException : BaseException
     {
