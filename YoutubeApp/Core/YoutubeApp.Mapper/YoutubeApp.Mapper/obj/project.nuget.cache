@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Gg4+qs6+K+aTSmZylQMQspIesVjkIrEBdaz0ZX81aZ0u7gToqEv9v4UWxvHKX/vcrXE7FfR5P7JYvsQ9ZmG3lQ==",
+  "dgSpecHash": "lO3nLq07aaBaB1ZnFXfho2Me5b+KNRyW6KZhjUNlIbCoYGVGDeSwqgNmoXNwUt/kRRPNjNyTlPxcuQZdYEMGaA==",
   "success": true,
   "projectFilePath": "C:\\Users\\cboza\\OneDrive\\Masaüstü\\App\\YoutubeApp\\Core\\YoutubeApp.Mapper\\YoutubeApp.Mapper\\YoutubeApp.Mapper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cboza\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\cboza\\.nuget\\packages\\bogus\\35.4.0\\bogus.35.4.0.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
     "C:\\Users\\cboza\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YoutubeApp.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fb862aa911c13b4807b540df89ec0975b937319")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b38de71d21056547002c7361c653b48c75e37dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("YoutubeApp.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YoutubeApp.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
