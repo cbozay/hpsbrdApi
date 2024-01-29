@@ -28,5 +28,11 @@ namespace YoutubeApp.Application.Features.Auth.Rules
             if (user.RefreshTokenExpiryTime<=DateTime.Now) throw new RefershTokenShouldNotBeExpiredException();
             return Task.CompletedTask;
         }
+
+        public Task EmailAddressShouldBeValid(User? user)
+        {
+            if (user is null) throw new EmailAddressShouldBeValidException();
+            return Task.CompletedTask;  
+        }
     }
 }
